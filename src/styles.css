@@ -1,0 +1,83 @@
+@import url("https //fonts.googleapis.com/css family=Muli&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://wallpapercave.com/wp/5KLTq1z.jpg");
+  font-family: "Muli", cursive;
+  color: white;
+}
+h1 {
+  margin: 10vh auto 0;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 3rem;
+  padding-bottom: 9px;
+  border-bottom: 2px solid white;
+}
+#quote-display {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  background: rgba(233, 231, 235, 0.2);
+  font-size: 35px;
+  border-radius: 10px;
+  padding: 1rem;
+}
+button {
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  /* transform: translate(50%, 50%); */
+  border-radius: 10px;
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px black;
+  margin-top: 1rem;
+}
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  animation: 3s infinite;
+  box-shadow: 2px 2px 2px black;
+  outline: none;
+  overflow: hidden;
+  transform: scaleX(1.1);
+}
+a {
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  /* transform: translate(50%, 50%); */
+  border-radius: 10px;
+  padding: 0.5rem;
+  background-color: #00acee;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px black;
+  margin-top: 1rem;
+}
+a:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #00acee;
+  animation: 3s infinite;
+  border: 1px solid #00acee;
+  box-shadow: 2px 2px 2px black;
+  outline: none;
+  overflow: hidden;
+  transform: scaleX(1.1);
+}
